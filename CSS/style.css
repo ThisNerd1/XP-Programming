@@ -1,9 +1,77 @@
 #indexBody {
-    background-image: url(https://i.pinimg.com/originals/8f/09/d5/8f09d576e3e3db7e50369731ef27c0db.jpg
-    );
+    background-image: url(https://i.pinimg.com/originals/8f/09/d5/8f09d576e3e3db7e50369731ef27c0db.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    color:darkorange;
+}
+
+.container{
+    height: 350px;
+    width: 350px;
+    background-color: azure;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:0 0 10px grey;
+    transition: 3s all;
+
+}
+
+.container div{
+    height: 50%;
+    width: 200px;
+    clip-path: polygon(100% 0, 50% 100%, 0 0 );
+    position: absolute;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    left: 21%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: monospace;
+    letter-spacing: 5px;
+    color:coral;
+    writing-mode: vertical-rl;
+}
+
+.container .killer1{
+background: green;
+left: 50%;
+}
+
+.container .killer2{
+    background: yellow;
+    transform: rotate(60deg);
+}
+
+.container .killer3{
+    background: pink;
+    left: 50%;
+}
+
+.container .killer4{
+    background: blue;
+    transform: rotate(60deg);
+}
+
+.container .killer5{
+    background: paleturquoise;
+    transform: rotate(240deg);
+}
+
+.container .killer6{
+    background: paleturquoise;
+    transform: rotate(300deg);
 }
 
 #slasherFightBody {
     background-image: url(https://i.pinimg.com/originals/8f/09/d5/8f09d576e3e3db7e50369731ef27c0db.jpg
     );
 }
+
