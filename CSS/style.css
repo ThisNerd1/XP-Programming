@@ -107,3 +107,22 @@ left: 50%;
     );
 }
 
+
+.column {
+    float: right;
+    width: 50%;
+    background-color: brown;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    background-color: aqua;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
