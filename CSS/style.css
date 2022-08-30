@@ -10,6 +10,10 @@
     color:darkorange;
 }
 
+#pBody {
+    text-align: justify;
+}
+
 .container{
     height: 350px;
     width: 350px;
@@ -119,14 +123,12 @@ background-size: contain;
     float: right;
     height: 100%;
     width: 50%;
-    background-color: brown;
 }
 
 .column2 {
     float: left;
     height: 100%;
     width: 50%;
-    background-color: aqua;
 }
 
 .row:after {
