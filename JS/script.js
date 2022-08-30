@@ -10,16 +10,32 @@ let killer6 = document.querySelector("killer6");
 let click = 0;
 fighter1 = "";
 figter2="";
+killers = [1,2,3,4,5,6];
 let selectedKiller = document.querySelector("stopper");
 
 button.onclick = function(){
     click ++;
-    container.style.transform = "rotate(" + num + "deg)"
     num += Math.ceil(Math.random()*10000);
-    if(selectedKiller == killer1){
+     container.style.transform = "rotate(" + num + "deg)"
+    spins = container.style.transform;
+
+    if(spins == killers[1]){
         console.log("Freddie has been chosen");
-    }else{
-        console.log("not found");
+    } else if (spins == killers[2]){
+        console.log("Jeepers Creepers has been chosen");
+    }
+    else if (spins == killers[3]){
+        console.log("Jason Voorhees has been chosen");
+    }
+    else if (spins == killers[4]){
+        console.log("Xenomorphhas been chosen");
+    }
+    else if (spins == killers[5]){
+        console.log("Micheal Myers has been chosen");
+    }
+    else if (spins == killers[6]){
+        console.log("Regan MacNeil has been chosen");
+    }
     }
 
     if(click > 2){
@@ -27,4 +43,3 @@ button.onclick = function(){
 
 
     }
-}
