@@ -41,33 +41,39 @@
 }
 
 .container .killer1{
-background: green;
+background-image: url("https://rue-morgue.com/framework/uploads/2018/10/freddy-sq-e1559496029918.jpg");
 left: 50%;
+background-size: contain;
 }
 
 .container .killer2{
-    background: yellow;
+    background-image: url("https://i.pinimg.com/736x/eb/0e/8c/eb0e8c0cf1655c967d6a9e6b80d63482--iconic-movies-jeepers-creepers.jpg");
     transform: rotate(60deg);
+    background-size: contain;
 }
 
 .container .killer3{
-    background: pink;
+    background-image: url("https://discourse.disneyheroesgame.com/uploads/default/original/3X/9/4/94579b02bd777b117a4d6834dcdf29eb43c80804.jpeg");
     transform: rotate(120deg);
+    background-size: contain;
 }
 
 .container .killer4{
-    background: blue;
+    background-image: url("https://d1lss44hh2trtw.cloudfront.net/assets/article/2021/02/24/xenomorph-fortnite_feature.jpg");
     transform: rotate(180deg);
+    background-size: contain;
 }
 
 .container .killer5{
-    background: paleturquoise;
+    background-image: url("https://i.ebayimg.com/images/g/WO4AAOSwEMxa1jbo/s-l400.jpg");
     transform: rotate(240deg);
+    background-size: contain;
 }
 
 .container .killer6{
-    background: paleturquoise;
+    background-image: url("https://i1.sndcdn.com/artworks-000110309460-pi9m78-t500x500.jpg");
     transform: rotate(300deg);
+    background-size: contain;
 }
 .mid-item {
     height: 25px;
@@ -96,10 +102,11 @@ left: 50%;
 .stopper{
     height: 50px;
     width: 40px;
-    background: yellowgreen;
+    background-image: url("https://i.pinimg.com/originals/ce/d8/81/ced881d4fbf4c508d2c13ca72b0778a0.jpg");
     position: absolute;
     margin-top: -350px;
     clip-path: polygon(100% 0, 50% 100%, 0 0);
+    background-size: contain;
 }
 
 #slasherFightBody {
