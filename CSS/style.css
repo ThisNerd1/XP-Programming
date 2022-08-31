@@ -142,3 +142,50 @@ background-size: contain;
     
 }
 
+.slasher1{
+    background-image: url("https://rue-morgue.com/framework/uploads/2018/10/freddy-sq-e1559496029918.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 390px;
+    color: white;
+}
+
+.slasher2{
+    background-image: url("https://i.pinimg.com/736x/eb/0e/8c/eb0e8c0cf1655c967d6a9e6b80d63482--iconic-movies-jeepers-creepers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 490px;
+    color: white;
+}
+
+.slasher3{
+    background-image: url("https://discourse.disneyheroesgame.com/uploads/default/original/3X/9/4/94579b02bd777b117a4d6834dcdf29eb43c80804.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 390px;
+    color: white;
+}
+
+.slasher4{
+    background-image: url("https://d1lss44hh2trtw.cloudfront.net/assets/article/2021/02/24/xenomorph-fortnite_feature.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 390px;
+    color: white;
+}
+
+.slasher5{
+    background-image: url("https://i.ebayimg.com/images/g/WO4AAOSwEMxa1jbo/s-l400.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 690px;
+    color: white;
+}
+
+.slasher6{
+    background-image: url("https://i1.sndcdn.com/artworks-000110309460-pi9m78-t500x500.jpg");
+    background-size: auto;
+    background-position: center;
+    background-position-y: 490px;
+    color: white;
+}

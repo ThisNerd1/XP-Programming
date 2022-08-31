@@ -17,29 +17,28 @@ button.onclick = function(){
     click ++;
     num += Math.ceil(Math.random()*10000);
      container.style.transform = "rotate(" + num + "deg)"
-    spins = container.style.transform;
 
-    if(spins == killers[1]){
-        console.log("Freddie has been chosen");
-    } else if (spins == killers[2]){
-        console.log("Jeepers Creepers has been chosen");
-    }
-    else if (spins == killers[3]){
-        console.log("Jason Voorhees has been chosen");
-    }
-    else if (spins == killers[4]){
-        console.log("Xenomorphhas been chosen");
-    }
-    else if (spins == killers[5]){
-        console.log("Micheal Myers has been chosen");
-    }
-    else if (spins == killers[6]){
-        console.log("Regan MacNeil has been chosen");
-    }
-    }
-
-    if(click > 2){
+     if (click> 2){
         location.href = "SlasherFight.html";
 
-
-    }
+}
+    
+        if(selectedKiller == killers[1]){
+            console.log("Freddie has been chosen");
+        } else if (selectedKiller == killers[2]){
+            console.log("Jeepers Creepers has been chosen");
+        }
+        else if (selectedKiller == killers[3]){
+            console.log("Jason Voorhees has been chosen");
+        }
+        else if (selectedKiller == killers[4]){
+            console.log("Xenomorphhas been chosen");
+        }
+        else if (selectedKiller == killers[5]){
+            console.log("Micheal Myers has been chosen");
+        }
+        else if (selectedKiller == killers[6]){
+            console.log("Regan MacNeil has been chosen");
+        }
+}
+    
